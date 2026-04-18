@@ -1,0 +1,5 @@
+dataset_name,source_site,x,y
+london_playgrounds_osm,Overpass API / OpenStreetMap,0.9540713138385171,-0.02590014825683009
+camden_playgrounds_osm,Overpass API / OpenStreetMap,0.898756173996836,-0.027853413080008133
+islington_playgrounds_osm,Overpass API / OpenStreetMap,0.9657766397002072,-0.025853126152879928
+playscapes_global_map,Spacescape,0.07492303924072322,0.9971880680143724

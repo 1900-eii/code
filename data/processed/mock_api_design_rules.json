@@ -1,0 +1,68 @@
+{
+  "mode": "mock",
+  "status": "usable-substitute",
+  "reason": "OpenAI API is deferred, so this file simulates downstream design-rule generation.",
+  "system_prompt_stub": "Transform interaction evidence into spatial fragment rules for a child-friendly architecture workflow.",
+  "responses": [
+    {
+      "taxonomy_label": "edge_condition",
+      "fragment_family": "threshold wall",
+      "geometry_rule": "repeat narrow vertical ribs and offset every third panel",
+      "material_rule": "use perforated metal or translucent acrylic panels",
+      "interaction_rule": "keep apertures at child-eye level and alternate dense/open zones",
+      "color_rule": "lean toward saturated warning tones with one bright accent",
+      "observed_mean_width": 1243.89,
+      "observed_mean_height": 939.9,
+      "observed_mean_alpha": 0.4997,
+      "observed_count": 63,
+      "supporting_terms": "playscapes, cities, web, global, playground, try, new, places, ask, possible",
+      "sample_records": [
+        "edge_condition_07084",
+        "edge_condition_07154",
+        "edge_condition_07168",
+        "edge_condition_07182",
+        "edge_condition_08778"
+      ]
+    },
+    {
+      "taxonomy_label": "playable_surface",
+      "fragment_family": "ground field",
+      "geometry_rule": "tile the surface with rhythmic circular or hopscotch-like markers",
+      "material_rule": "use painted rubber, terrazzo, or textured paving",
+      "interaction_rule": "encode movement prompts as directional traces and soft landing pockets",
+      "color_rule": "use high-contrast stripes and warm ground colors",
+      "observed_mean_width": 410.8,
+      "observed_mean_height": 657.73,
+      "observed_mean_alpha": 0.386,
+      "observed_count": 15,
+      "supporting_terms": "playscapes, cities, web, global, playground, try, new, places, ask, possible",
+      "sample_records": [
+        "playable_surface_07168",
+        "playable_surface_07182",
+        "playable_surface_09212",
+        "playable_surface_09240",
+        "playable_surface_10388"
+      ]
+    },
+    {
+      "taxonomy_label": "sloped_platform",
+      "fragment_family": "inhabitable slope",
+      "geometry_rule": "stack broad terraces and taper every second edge to create climbable transitions",
+      "material_rule": "use timber slats, coated plywood, or soft composite seating surfaces",
+      "interaction_rule": "balance sitting, climbing, and pause zones across the slope",
+      "color_rule": "keep the base warm and highlight slope transitions with brighter bands",
+      "observed_mean_width": 1546.12,
+      "observed_mean_height": 890.32,
+      "observed_mean_alpha": 0.3555,
+      "observed_count": 69,
+      "supporting_terms": "playscapes, cities, web, global, playground, try, new, places, ask, possible",
+      "sample_records": [
+        "sloped_platform_07154",
+        "sloped_platform_07168",
+        "sloped_platform_07350",
+        "sloped_platform_07364",
+        "sloped_platform_09044"
+      ]
+    }
+  ]
+}

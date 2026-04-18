@@ -1,0 +1,4 @@
+taxonomy_label,mean_width,mean_height,mean_alpha,exemplar_count,suggested_blender_action
+edge_condition,1243.888888888889,939.9047619047619,0.4996779613237191,63,extrude edge frames into porous wall fragments
+playable_surface,410.8,657.7333333333333,0.3859690336034708,15,flatten into patterned ground tiles
+sloped_platform,1546.1159420289855,890.3188405797101,0.3554762047666395,69,loft into stepped seating or ramps

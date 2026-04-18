@@ -1,0 +1,91 @@
+{
+  "ml_summary": {
+    "record_count": 147,
+    "taxonomy_counts": {
+      "sloped_platform": 69,
+      "edge_condition": 63,
+      "playable_surface": 15
+    },
+    "mean_alpha_coverage_ratio": 0.4204,
+    "brightest_taxonomy": "sloped_platform"
+  },
+  "text_summary": {
+    "dataset_count": 4,
+    "top_terms_by_method": [
+      {
+        "dataset_name": "london_playgrounds_osm",
+        "method": "count",
+        "top_terms": "tags, unspecified, common, records, playground, sand, based, evidence, play, mapped"
+      },
+      {
+        "dataset_name": "camden_playgrounds_osm",
+        "method": "count",
+        "top_terms": "114, tags, playground, records, unspecified, common, play, include, interaction, based"
+      },
+      {
+        "dataset_name": "islington_playgrounds_osm",
+        "method": "count",
+        "top_terms": "tags, common, records, unspecified, playground, elements, public, private, compared, coordinates"
+      },
+      {
+        "dataset_name": "playscapes_global_map",
+        "method": "count",
+        "top_terms": "playscapes, cities, web, global, playground, try, new, places, ask, possible"
+      },
+      {
+        "dataset_name": "london_playgrounds_osm",
+        "method": "tfidf",
+        "top_terms": "tags, common, unspecified, tags unspecified, records, playground, paved, paved records, private 14, private"
+      },
+      {
+        "dataset_name": "camden_playgrounds_osm",
+        "method": "tfidf",
+        "top_terms": "114, unspecified 114, tags, common, unspecified, tags unspecified, records, playground, elements records, playground elements"
+      },
+      {
+        "dataset_name": "islington_playgrounds_osm",
+        "method": "tfidf",
+        "top_terms": "tags, common, unspecified, tags unspecified, records, playground, private yes, yes, private, woodchips"
+      },
+      {
+        "dataset_name": "playscapes_global_map",
+        "method": "tfidf",
+        "top_terms": "playscapes, cities, global, web, new, try, playground, playgrounds, playgroundresearch org, playground access"
+      }
+    ]
+  },
+  "vector_methods": [
+    {
+      "method": "clip",
+      "vector_dim": 768,
+      "pc1_explained": 0.1567305326461792,
+      "pc2_explained": 0.11364195495843887,
+      "notes": NaN
+    },
+    {
+      "method": "engineered",
+      "vector_dim": 14,
+      "pc1_explained": 0.3237257682149011,
+      "pc2_explained": 0.2718419057170925,
+      "notes": NaN
+    },
+    {
+      "method": "count_vectorizer",
+      "vector_dim": 80,
+      "pc1_explained": NaN,
+      "pc2_explained": NaN,
+      "notes": "Captures raw term frequency and preserves repeated urban-play keywords."
+    },
+    {
+      "method": "tfidf",
+      "vector_dim": 80,
+      "pc1_explained": NaN,
+      "pc2_explained": NaN,
+      "notes": "Downweights generic terms and emphasizes site-specific planning vocabulary."
+    }
+  ],
+  "deferred_modules": [
+    "OpenAI API integration is scaffolded but not executed.",
+    "Blender fragment generation is scaffolded but not executed."
+  ]
+}

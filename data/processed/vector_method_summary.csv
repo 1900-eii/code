@@ -1,0 +1,5 @@
+method,vector_dim,pc1_explained,pc2_explained,notes
+clip,768,0.1567305326461792,0.11364195495843887,
+engineered,14,0.3237257682149011,0.2718419057170925,
+count_vectorizer,80,,,Captures raw term frequency and preserves repeated urban-play keywords.
+tfidf,80,,,Downweights generic terms and emphasizes site-specific planning vocabulary.

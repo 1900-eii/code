@@ -1,0 +1,15 @@
+{
+  "record_count": 147,
+  "taxonomy_counts": {
+    "sloped_platform": 69,
+    "edge_condition": 63,
+    "playable_surface": 15
+  },
+  "time_range_sec": [
+    236.369,
+    454.521
+  ],
+  "mean_alpha_coverage_ratio": 0.4204,
+  "mean_crop_area": 1201852.99,
+  "clip_vector_dim": 768
+}

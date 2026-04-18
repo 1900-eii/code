@@ -1,0 +1,240 @@
+{
+  "project": {
+    "title": "Child-Space Interaction Analysis and Design Translation Workflow",
+    "subtitle": "A full-stack research prototype combining scraping, ML, vectorisation, visualization, mock rule generation, front-end rendering, and Blender export.",
+    "status": "Delivery Demo Build"
+  },
+  "highlights": {
+    "ml_records": 147,
+    "scraped_datasets": 4,
+    "structured_rows": 401,
+    "fragment_count": 24,
+    "vector_methods": [
+      "clip",
+      "engineered",
+      "count_vectorizer",
+      "tfidf"
+    ]
+  },
+  "taxonomy_counts": {
+    "sloped_platform": 69,
+    "edge_condition": 63,
+    "playable_surface": 15
+  },
+  "datasets": [
+    {
+      "dataset_name": "london_playgrounds_osm",
+      "dataset_type": "structured_geospatial",
+      "source_site": "Overpass API / OpenStreetMap",
+      "title": "London playgrounds from OpenStreetMap",
+      "topic": "mapped playground locations across Greater London",
+      "row_count": 250,
+      "paragraph_count": 1,
+      "summary_text": "London playground dataset extracted from OpenStreetMap with 250 mapped playground elements. 39 records include a name tag. Most common access tags: {'unspecified': 165, 'yes': 60, 'private': 14, 'customers': 9}. Most common surface tags: {'unspecified': 246, 'woodchips': 2, 'sand': 1, 'paved': 1}. These records describe public play locations, tags, and approximate coordinates that can be compared with the video-based interaction evidence.",
+      "top_terms": [
+        "tags, unspecified, common, records, playground, sand, based, evidence, play, mapped",
+        "tags, common, unspecified, tags unspecified, records, playground, paved, paved records, private 14, private"
+      ]
+    },
+    {
+      "dataset_name": "camden_playgrounds_osm",
+      "dataset_type": "structured_geospatial",
+      "source_site": "Overpass API / OpenStreetMap",
+      "title": "Camden playgrounds from OpenStreetMap",
+      "topic": "mapped playground locations in the London Borough of Camden",
+      "row_count": 114,
+      "paragraph_count": 1,
+      "summary_text": "Camden playground dataset extracted from OpenStreetMap with 114 mapped playground elements. 3 records include a name tag. Most common access tags: {'unspecified': 114}. Most common surface tags: {'unspecified': 114}. These records describe public play locations, tags, and approximate coordinates that can be compared with the video-based interaction evidence.",
+      "top_terms": [
+        "114, tags, playground, records, unspecified, common, play, include, interaction, based",
+        "114, unspecified 114, tags, common, unspecified, tags unspecified, records, playground, elements records, playground elements"
+      ]
+    },
+    {
+      "dataset_name": "islington_playgrounds_osm",
+      "dataset_type": "structured_geospatial",
+      "source_site": "Overpass API / OpenStreetMap",
+      "title": "Islington playgrounds from OpenStreetMap",
+      "topic": "mapped playground locations in the London Borough of Islington",
+      "row_count": 37,
+      "paragraph_count": 1,
+      "summary_text": "Islington playground dataset extracted from OpenStreetMap with 37 mapped playground elements. 0 records include a name tag. Most common access tags: {'unspecified': 24, 'private': 7, 'yes': 6}. Most common surface tags: {'unspecified': 36, 'woodchips': 1}. These records describe public play locations, tags, and approximate coordinates that can be compared with the video-based interaction evidence.",
+      "top_terms": [
+        "tags, common, records, unspecified, playground, elements, public, private, compared, coordinates",
+        "tags, common, unspecified, tags unspecified, records, playground, private yes, yes, private, woodchips"
+      ]
+    },
+    {
+      "dataset_name": "playscapes_global_map",
+      "dataset_type": "text_reference",
+      "source_site": "Spacescape",
+      "title": "Try Playscapes – a new global playground map – Spacescape",
+      "topic": "global playground access and urban playability overview",
+      "row_count": 8,
+      "paragraph_count": 8,
+      "summary_text": "Praktik Stadsplanering Stadsbyggnadsanalys Översiktsplanering Trafikplanering Grönplanering Fastighetsutveckling Platsutveckling Dialoger Forskning\nTry Playscapes – a new global playground map\nHow accessible are playgrounds in the world’s cities? Where do children have safe, nearby places to play, move, and meet friends – and where are such spaces missing altogether? A new web-based platform called Playscapes now makes it possible to explore these questions in detail. Developed by researchers at the University of Southern Denmark, the Swedish consultancy Spacescape, and web design firm OAWA, Playscapes allows users to compare playground access across cities worldwide — from a global overview down to the neighborhood level. The tool is freely available to try at playgroundresearch.org/playscapes . It is currently a beta-version for testing, and we kindly ask everyone who tests it for feedback.",
+      "top_terms": [
+        "playscapes, cities, web, global, playground, try, new, places, ask, possible",
+        "playscapes, cities, global, web, new, try, playground, playgrounds, playgroundresearch org, playground access"
+      ]
+    }
+  ],
+  "architecture_steps": [
+    {
+      "stage": "01",
+      "title": "Video Observation",
+      "body": "A real-world video is sampled into frames and keyframes to make human behavior searchable."
+    },
+    {
+      "stage": "02",
+      "title": "ML Interaction Extraction",
+      "body": "YOLO detects children and space elements, SAM segments them, and CLIP filters for meaningful interaction scenes."
+    },
+    {
+      "stage": "03",
+      "title": "Reference Data Scraping",
+      "body": "Public playground and spatial-access datasets are collected from OpenStreetMap and reference articles."
+    },
+    {
+      "stage": "04",
+      "title": "Vectorisation + Comparison",
+      "body": "Image evidence keeps CLIP vectors while scraped text and dataset summaries are vectorised with CountVectorizer and TF-IDF."
+    },
+    {
+      "stage": "05",
+      "title": "Design Rule Synthesis",
+      "body": "The mock API layer converts evidence into taxonomy-specific geometry, material, interaction, and color rules."
+    },
+    {
+      "stage": "06",
+      "title": "Fragment Rendering + Export",
+      "body": "The system renders fragment families, then exports Blender-ready JSON and CSV packages for downstream modeling."
+    }
+  ],
+  "plot_cards": [
+    {
+      "title": "Interaction Taxonomy Distribution",
+      "description": "How often each interaction-related space type appears in the final ML evidence.",
+      "path": "data/plots/taxonomy_distribution.png"
+    },
+    {
+      "title": "Interaction Timeline",
+      "description": "When interaction evidence appears across the source video.",
+      "path": "data/plots/interaction_timeline.png"
+    },
+    {
+      "title": "Engineered Feature PCA",
+      "description": "Dimensionality reduction over crop metrics, color, coverage, and taxonomy indicators.",
+      "path": "data/plots/engineered_pca.png"
+    },
+    {
+      "title": "CLIP Feature PCA",
+      "description": "Projection of nearest-keyframe CLIP embeddings linked to each interaction.",
+      "path": "data/plots/clip_pca.png"
+    },
+    {
+      "title": "Structured Scraped Row Counts",
+      "description": "How many structured playground records were scraped per geospatial dataset.",
+      "path": "data/plots/scraped_row_counts.png"
+    },
+    {
+      "title": "TF-IDF Dataset Projection",
+      "description": "Semantic relationship between scraped reference datasets after text vectorisation.",
+      "path": "data/plots/tfidf_projection.png"
+    },
+    {
+      "title": "Count Similarity Heatmap",
+      "description": "Term-frequency similarity across datasets.",
+      "path": "data/plots/count_similarity_heatmap.png"
+    },
+    {
+      "title": "TF-IDF Similarity Heatmap",
+      "description": "Keyword-weighted similarity across datasets.",
+      "path": "data/plots/tfidf_similarity_heatmap.png"
+    }
+  ],
+  "mock_rules": [
+    {
+      "taxonomy_label": "edge_condition",
+      "fragment_family": "threshold wall",
+      "geometry_rule": "repeat narrow vertical ribs and offset every third panel",
+      "material_rule": "use perforated metal or translucent acrylic panels",
+      "interaction_rule": "keep apertures at child-eye level and alternate dense/open zones",
+      "color_rule": "lean toward saturated warning tones with one bright accent",
+      "observed_mean_width": 1243.89,
+      "observed_mean_height": 939.9,
+      "observed_mean_alpha": 0.4997,
+      "observed_count": 63,
+      "supporting_terms": "playscapes, cities, web, global, playground, try, new, places, ask, possible",
+      "sample_records": [
+        "edge_condition_07084",
+        "edge_condition_07154",
+        "edge_condition_07168",
+        "edge_condition_07182",
+        "edge_condition_08778"
+      ]
+    },
+    {
+      "taxonomy_label": "playable_surface",
+      "fragment_family": "ground field",
+      "geometry_rule": "tile the surface with rhythmic circular or hopscotch-like markers",
+      "material_rule": "use painted rubber, terrazzo, or textured paving",
+      "interaction_rule": "encode movement prompts as directional traces and soft landing pockets",
+      "color_rule": "use high-contrast stripes and warm ground colors",
+      "observed_mean_width": 410.8,
+      "observed_mean_height": 657.73,
+      "observed_mean_alpha": 0.386,
+      "observed_count": 15,
+      "supporting_terms": "playscapes, cities, web, global, playground, try, new, places, ask, possible",
+      "sample_records": [
+        "playable_surface_07168",
+        "playable_surface_07182",
+        "playable_surface_09212",
+        "playable_surface_09240",
+        "playable_surface_10388"
+      ]
+    },
+    {
+      "taxonomy_label": "sloped_platform",
+      "fragment_family": "inhabitable slope",
+      "geometry_rule": "stack broad terraces and taper every second edge to create climbable transitions",
+      "material_rule": "use timber slats, coated plywood, or soft composite seating surfaces",
+      "interaction_rule": "balance sitting, climbing, and pause zones across the slope",
+      "color_rule": "keep the base warm and highlight slope transitions with brighter bands",
+      "observed_mean_width": 1546.12,
+      "observed_mean_height": 890.32,
+      "observed_mean_alpha": 0.3555,
+      "observed_count": 69,
+      "supporting_terms": "playscapes, cities, web, global, playground, try, new, places, ask, possible",
+      "sample_records": [
+        "sloped_platform_07154",
+        "sloped_platform_07168",
+        "sloped_platform_07350",
+        "sloped_platform_07364",
+        "sloped_platform_09044"
+      ]
+    }
+  ],
+  "deliverables": [
+    {
+      "label": "ML interaction table",
+      "path": "data/processed/ml_interactions.csv"
+    },
+    {
+      "label": "Scraped structured rows",
+      "path": "data/processed/scraped_structured_rows.csv"
+    },
+    {
+      "label": "Mock API design rules",
+      "path": "data/processed/mock_api_design_rules.json"
+    },
+    {
+      "label": "Blender-ready JSON",
+      "path": "data/processed/blender_ready_fragments.json"
+    },
+    {
+      "label": "Submission notes",
+      "path": "SUBMISSION_NOTES.md"
+    }
+  ]
+}

@@ -1,0 +1,728 @@
+{
+  "project": "Child-Space Interaction Fragment Renderer",
+  "render_mode": "frontend-substitute-for-blender",
+  "note": "This scene is a front-end rendering prototype that stands in for the deferred Blender stage.",
+  "fragment_count": 24,
+  "fragments": [
+    {
+      "id": "edge_condition_09926",
+      "taxonomy": "edge_condition",
+      "family": "threshold wall",
+      "title": "Edge Condition #1",
+      "timestamp_sec": 331.198,
+      "size": {
+        "width": 268,
+        "height": 172,
+        "depth": 120
+      },
+      "tilt": -3.0,
+      "elevation": 54.6,
+      "radius": 13.33,
+      "alpha_coverage_ratio": 0.8786607831790123,
+      "brightness": 136.30755433384775,
+      "source_image": "output/final_results/edge_condition_09926_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_330930.jpg",
+      "palette": [
+        "#146356",
+        "#f8b400",
+        "#f6f5f5"
+      ],
+      "rules": {
+        "geometry": "repeat narrow vertical ribs and offset every third panel",
+        "material": "use perforated metal or translucent acrylic panels",
+        "interaction": "keep apertures at child-eye level and alternate dense/open zones",
+        "color": "lean toward saturated warning tones with one bright accent"
+      }
+    },
+    {
+      "id": "edge_condition_09912",
+      "taxonomy": "edge_condition",
+      "family": "threshold wall",
+      "title": "Edge Condition #2",
+      "timestamp_sec": 330.73,
+      "size": {
+        "width": 268,
+        "height": 172,
+        "depth": 120
+      },
+      "tilt": 3.0,
+      "elevation": 66.51,
+      "radius": 13.33,
+      "alpha_coverage_ratio": 0.8753655478395062,
+      "brightness": 136.49502748842593,
+      "source_image": "output/final_results/edge_condition_09912_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_330930.jpg",
+      "palette": [
+        "#146356",
+        "#f8b400",
+        "#f6f5f5"
+      ],
+      "rules": {
+        "geometry": "repeat narrow vertical ribs and offset every third panel",
+        "material": "use perforated metal or translucent acrylic panels",
+        "interaction": "keep apertures at child-eye level and alternate dense/open zones",
+        "color": "lean toward saturated warning tones with one bright accent"
+      }
+    },
+    {
+      "id": "edge_condition_09870",
+      "taxonomy": "edge_condition",
+      "family": "threshold wall",
+      "title": "Edge Condition #3",
+      "timestamp_sec": 329.329,
+      "size": {
+        "width": 268,
+        "height": 172,
+        "depth": 120
+      },
+      "tilt": 9.0,
+      "elevation": 42.09,
+      "radius": 13.33,
+      "alpha_coverage_ratio": 0.8605203510802469,
+      "brightness": 135.47250241126542,
+      "source_image": "output/final_results/edge_condition_09870_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_328995.jpg",
+      "palette": [
+        "#146356",
+        "#f8b400",
+        "#f6f5f5"
+      ],
+      "rules": {
+        "geometry": "repeat narrow vertical ribs and offset every third panel",
+        "material": "use perforated metal or translucent acrylic panels",
+        "interaction": "keep apertures at child-eye level and alternate dense/open zones",
+        "color": "lean toward saturated warning tones with one bright accent"
+      }
+    },
+    {
+      "id": "edge_condition_09856",
+      "taxonomy": "edge_condition",
+      "family": "threshold wall",
+      "title": "Edge Condition #4",
+      "timestamp_sec": 328.862,
+      "size": {
+        "width": 184,
+        "height": 172,
+        "depth": 120
+      },
+      "tilt": -9.0,
+      "elevation": 52.13,
+      "radius": 11.66,
+      "alpha_coverage_ratio": 0.7902313407632556,
+      "brightness": 135.28672511163646,
+      "source_image": "output/final_results/edge_condition_09856_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_328995.jpg",
+      "palette": [
+        "#146356",
+        "#f8b400",
+        "#f6f5f5"
+      ],
+      "rules": {
+        "geometry": "repeat narrow vertical ribs and offset every third panel",
+        "material": "use perforated metal or translucent acrylic panels",
+        "interaction": "keep apertures at child-eye level and alternate dense/open zones",
+        "color": "lean toward saturated warning tones with one bright accent"
+      }
+    },
+    {
+      "id": "edge_condition_09240",
+      "taxonomy": "edge_condition",
+      "family": "threshold wall",
+      "title": "Edge Condition #5",
+      "timestamp_sec": 308.308,
+      "size": {
+        "width": 180,
+        "height": 172,
+        "depth": 120
+      },
+      "tilt": -3.0,
+      "elevation": 61.9,
+      "radius": 11.59,
+      "alpha_coverage_ratio": 0.7105449489737415,
+      "brightness": 51.89335081986011,
+      "source_image": "output/final_results/edge_condition_09240_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_308675.jpg",
+      "palette": [
+        "#146356",
+        "#f8b400",
+        "#f6f5f5"
+      ],
+      "rules": {
+        "geometry": "repeat narrow vertical ribs and offset every third panel",
+        "material": "use perforated metal or translucent acrylic panels",
+        "interaction": "keep apertures at child-eye level and alternate dense/open zones",
+        "color": "lean toward saturated warning tones with one bright accent"
+      }
+    },
+    {
+      "id": "edge_condition_09282",
+      "taxonomy": "edge_condition",
+      "family": "threshold wall",
+      "title": "Edge Condition #6",
+      "timestamp_sec": 309.709,
+      "size": {
+        "width": 178,
+        "height": 172,
+        "depth": 120
+      },
+      "tilt": 3.0,
+      "elevation": 37.35,
+      "radius": 11.55,
+      "alpha_coverage_ratio": 0.6909879926912034,
+      "brightness": 50.20105523168692,
+      "source_image": "output/final_results/edge_condition_09282_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_309642.jpg",
+      "palette": [
+        "#146356",
+        "#f8b400",
+        "#f6f5f5"
+      ],
+      "rules": {
+        "geometry": "repeat narrow vertical ribs and offset every third panel",
+        "material": "use perforated metal or translucent acrylic panels",
+        "interaction": "keep apertures at child-eye level and alternate dense/open zones",
+        "color": "lean toward saturated warning tones with one bright accent"
+      }
+    },
+    {
+      "id": "edge_condition_09226",
+      "taxonomy": "edge_condition",
+      "family": "threshold wall",
+      "title": "Edge Condition #7",
+      "timestamp_sec": 307.841,
+      "size": {
+        "width": 178,
+        "height": 170,
+        "depth": 120
+      },
+      "tilt": 9.0,
+      "elevation": 49.33,
+      "radius": 11.58,
+      "alpha_coverage_ratio": 0.6904626922963356,
+      "brightness": 48.404901526559776,
+      "source_image": "output/final_results/edge_condition_09226_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_307707.jpg",
+      "palette": [
+        "#146356",
+        "#f8b400",
+        "#f6f5f5"
+      ],
+      "rules": {
+        "geometry": "repeat narrow vertical ribs and offset every third panel",
+        "material": "use perforated metal or translucent acrylic panels",
+        "interaction": "keep apertures at child-eye level and alternate dense/open zones",
+        "color": "lean toward saturated warning tones with one bright accent"
+      }
+    },
+    {
+      "id": "edge_condition_09324",
+      "taxonomy": "edge_condition",
+      "family": "threshold wall",
+      "title": "Edge Condition #8",
+      "timestamp_sec": 311.111,
+      "size": {
+        "width": 178,
+        "height": 172,
+        "depth": 120
+      },
+      "tilt": -9.0,
+      "elevation": 60.84,
+      "radius": 11.56,
+      "alpha_coverage_ratio": 0.6728127678978568,
+      "brightness": 50.43290761513908,
+      "source_image": "output/final_results/edge_condition_09324_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_311577.jpg",
+      "palette": [
+        "#146356",
+        "#f8b400",
+        "#f6f5f5"
+      ],
+      "rules": {
+        "geometry": "repeat narrow vertical ribs and offset every third panel",
+        "material": "use perforated metal or translucent acrylic panels",
+        "interaction": "keep apertures at child-eye level and alternate dense/open zones",
+        "color": "lean toward saturated warning tones with one bright accent"
+      }
+    },
+    {
+      "id": "playable_surface_10934",
+      "taxonomy": "playable_surface",
+      "family": "ground field",
+      "title": "Playable Surface #1",
+      "timestamp_sec": 364.831,
+      "size": {
+        "width": 160,
+        "height": 120,
+        "depth": 120
+      },
+      "tilt": -3.0,
+      "elevation": 46.79,
+      "radius": 10.53,
+      "alpha_coverage_ratio": 0.5994730577907084,
+      "brightness": 55.491221585867734,
+      "source_image": "output/final_results/playable_surface_10934_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_364797.jpg",
+      "palette": [
+        "#ef6c57",
+        "#ffd166",
+        "#1f5c7a"
+      ],
+      "rules": {
+        "geometry": "tile the surface with rhythmic circular or hopscotch-like markers",
+        "material": "use painted rubber, terrazzo, or textured paving",
+        "interaction": "encode movement prompts as directional traces and soft landing pockets",
+        "color": "use high-contrast stripes and warm ground colors"
+      }
+    },
+    {
+      "id": "playable_surface_11144",
+      "taxonomy": "playable_surface",
+      "family": "ground field",
+      "title": "Playable Surface #2",
+      "timestamp_sec": 371.838,
+      "size": {
+        "width": 160,
+        "height": 120,
+        "depth": 105
+      },
+      "tilt": 3.0,
+      "elevation": 55.24,
+      "radius": 10.17,
+      "alpha_coverage_ratio": 0.4729525157089171,
+      "brightness": 70.781074241433,
+      "source_image": "output/final_results/playable_surface_11144_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_371571.jpg",
+      "palette": [
+        "#ef6c57",
+        "#ffd166",
+        "#1f5c7a"
+      ],
+      "rules": {
+        "geometry": "tile the surface with rhythmic circular or hopscotch-like markers",
+        "material": "use painted rubber, terrazzo, or textured paving",
+        "interaction": "encode movement prompts as directional traces and soft landing pockets",
+        "color": "use high-contrast stripes and warm ground colors"
+      }
+    },
+    {
+      "id": "playable_surface_10864",
+      "taxonomy": "playable_surface",
+      "family": "ground field",
+      "title": "Playable Surface #3",
+      "timestamp_sec": 362.495,
+      "size": {
+        "width": 160,
+        "height": 121,
+        "depth": 100
+      },
+      "tilt": 9.0,
+      "elevation": 30.53,
+      "radius": 9.67,
+      "alpha_coverage_ratio": 0.4474688295224835,
+      "brightness": 76.64627464904986,
+      "source_image": "output/final_results/playable_surface_10864_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_362862.jpg",
+      "palette": [
+        "#ef6c57",
+        "#ffd166",
+        "#1f5c7a"
+      ],
+      "rules": {
+        "geometry": "tile the surface with rhythmic circular or hopscotch-like markers",
+        "material": "use painted rubber, terrazzo, or textured paving",
+        "interaction": "encode movement prompts as directional traces and soft landing pockets",
+        "color": "use high-contrast stripes and warm ground colors"
+      }
+    },
+    {
+      "id": "playable_surface_11102",
+      "taxonomy": "playable_surface",
+      "family": "ground field",
+      "title": "Playable Surface #4",
+      "timestamp_sec": 370.437,
+      "size": {
+        "width": 160,
+        "height": 120,
+        "depth": 97
+      },
+      "tilt": -9.0,
+      "elevation": 42.09,
+      "radius": 10.07,
+      "alpha_coverage_ratio": 0.4318844700443923,
+      "brightness": 67.63146470019933,
+      "source_image": "output/final_results/playable_surface_11102_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_370603.jpg",
+      "palette": [
+        "#ef6c57",
+        "#ffd166",
+        "#1f5c7a"
+      ],
+      "rules": {
+        "geometry": "tile the surface with rhythmic circular or hopscotch-like markers",
+        "material": "use painted rubber, terrazzo, or textured paving",
+        "interaction": "encode movement prompts as directional traces and soft landing pockets",
+        "color": "use high-contrast stripes and warm ground colors"
+      }
+    },
+    {
+      "id": "playable_surface_11074",
+      "taxonomy": "playable_surface",
+      "family": "ground field",
+      "title": "Playable Surface #5",
+      "timestamp_sec": 369.502,
+      "size": {
+        "width": 160,
+        "height": 120,
+        "depth": 97
+      },
+      "tilt": -3.0,
+      "elevation": 53.99,
+      "radius": 9.98,
+      "alpha_coverage_ratio": 0.4281725114744693,
+      "brightness": 64.89729602935552,
+      "source_image": "output/final_results/playable_surface_11074_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_369635.jpg",
+      "palette": [
+        "#ef6c57",
+        "#ffd166",
+        "#1f5c7a"
+      ],
+      "rules": {
+        "geometry": "tile the surface with rhythmic circular or hopscotch-like markers",
+        "material": "use painted rubber, terrazzo, or textured paving",
+        "interaction": "encode movement prompts as directional traces and soft landing pockets",
+        "color": "use high-contrast stripes and warm ground colors"
+      }
+    },
+    {
+      "id": "playable_surface_10906",
+      "taxonomy": "playable_surface",
+      "family": "ground field",
+      "title": "Playable Surface #6",
+      "timestamp_sec": 363.897,
+      "size": {
+        "width": 160,
+        "height": 120,
+        "depth": 94
+      },
+      "tilt": 3.0,
+      "elevation": 29.62,
+      "radius": 10.42,
+      "alpha_coverage_ratio": 0.4148775346037558,
+      "brightness": 71.94494065505965,
+      "source_image": "output/final_results/playable_surface_10906_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_363830.jpg",
+      "palette": [
+        "#ef6c57",
+        "#ffd166",
+        "#1f5c7a"
+      ],
+      "rules": {
+        "geometry": "tile the surface with rhythmic circular or hopscotch-like markers",
+        "material": "use painted rubber, terrazzo, or textured paving",
+        "interaction": "encode movement prompts as directional traces and soft landing pockets",
+        "color": "use high-contrast stripes and warm ground colors"
+      }
+    },
+    {
+      "id": "playable_surface_10430",
+      "taxonomy": "playable_surface",
+      "family": "ground field",
+      "title": "Playable Surface #7",
+      "timestamp_sec": 348.014,
+      "size": {
+        "width": 160,
+        "height": 120,
+        "depth": 93
+      },
+      "tilt": 9.0,
+      "elevation": 41.49,
+      "radius": 9.57,
+      "alpha_coverage_ratio": 0.4102822925577417,
+      "brightness": 120.7996506986028,
+      "source_image": "output/final_results/playable_surface_10430_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_348348.jpg",
+      "palette": [
+        "#ef6c57",
+        "#ffd166",
+        "#1f5c7a"
+      ],
+      "rules": {
+        "geometry": "tile the surface with rhythmic circular or hopscotch-like markers",
+        "material": "use painted rubber, terrazzo, or textured paving",
+        "interaction": "encode movement prompts as directional traces and soft landing pockets",
+        "color": "use high-contrast stripes and warm ground colors"
+      }
+    },
+    {
+      "id": "playable_surface_09240",
+      "taxonomy": "playable_surface",
+      "family": "ground field",
+      "title": "Playable Surface #8",
+      "timestamp_sec": 308.308,
+      "size": {
+        "width": 160,
+        "height": 120,
+        "depth": 93
+      },
+      "tilt": -9.0,
+      "elevation": 53.38,
+      "radius": 9.36,
+      "alpha_coverage_ratio": 0.4064576869583823,
+      "brightness": 82.90013908205842,
+      "source_image": "output/final_results/playable_surface_09240_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_308675.jpg",
+      "palette": [
+        "#ef6c57",
+        "#ffd166",
+        "#1f5c7a"
+      ],
+      "rules": {
+        "geometry": "tile the surface with rhythmic circular or hopscotch-like markers",
+        "material": "use painted rubber, terrazzo, or textured paving",
+        "interaction": "encode movement prompts as directional traces and soft landing pockets",
+        "color": "use high-contrast stripes and warm ground colors"
+      }
+    },
+    {
+      "id": "sloped_platform_13594",
+      "taxonomy": "sloped_platform",
+      "family": "inhabitable slope",
+      "title": "Sloped Platform #1",
+      "timestamp_sec": 453.586,
+      "size": {
+        "width": 174,
+        "height": 135,
+        "depth": 120
+      },
+      "tilt": -3.0,
+      "elevation": 45.98,
+      "radius": 12.41,
+      "alpha_coverage_ratio": 0.5708093294073578,
+      "brightness": 123.01064438786236,
+      "source_image": "output/final_results/sloped_platform_13594_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_453820.jpg",
+      "palette": [
+        "#7c5535",
+        "#e09f3e",
+        "#f4f1de"
+      ],
+      "rules": {
+        "geometry": "stack broad terraces and taper every second edge to create climbable transitions",
+        "material": "use timber slats, coated plywood, or soft composite seating surfaces",
+        "interaction": "balance sitting, climbing, and pause zones across the slope",
+        "color": "keep the base warm and highlight slope transitions with brighter bands"
+      }
+    },
+    {
+      "id": "sloped_platform_13608",
+      "taxonomy": "sloped_platform",
+      "family": "inhabitable slope",
+      "title": "Sloped Platform #2",
+      "timestamp_sec": 454.054,
+      "size": {
+        "width": 175,
+        "height": 137,
+        "depth": 120
+      },
+      "tilt": 3.0,
+      "elevation": 57.9,
+      "radius": 12.38,
+      "alpha_coverage_ratio": 0.5679351266411969,
+      "brightness": 123.61313584356716,
+      "source_image": "output/final_results/sloped_platform_13608_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_453820.jpg",
+      "palette": [
+        "#7c5535",
+        "#e09f3e",
+        "#f4f1de"
+      ],
+      "rules": {
+        "geometry": "stack broad terraces and taper every second edge to create climbable transitions",
+        "material": "use timber slats, coated plywood, or soft composite seating surfaces",
+        "interaction": "balance sitting, climbing, and pause zones across the slope",
+        "color": "keep the base warm and highlight slope transitions with brighter bands"
+      }
+    },
+    {
+      "id": "sloped_platform_13566",
+      "taxonomy": "sloped_platform",
+      "family": "inhabitable slope",
+      "title": "Sloped Platform #3",
+      "timestamp_sec": 452.652,
+      "size": {
+        "width": 176,
+        "height": 138,
+        "depth": 118
+      },
+      "tilt": 9.0,
+      "elevation": 33.31,
+      "radius": 12.37,
+      "alpha_coverage_ratio": 0.5467401052907892,
+      "brightness": 114.112473628692,
+      "source_image": "output/final_results/sloped_platform_13566_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_452852.jpg",
+      "palette": [
+        "#7c5535",
+        "#e09f3e",
+        "#f4f1de"
+      ],
+      "rules": {
+        "geometry": "stack broad terraces and taper every second edge to create climbable transitions",
+        "material": "use timber slats, coated plywood, or soft composite seating surfaces",
+        "interaction": "balance sitting, climbing, and pause zones across the slope",
+        "color": "keep the base warm and highlight slope transitions with brighter bands"
+      }
+    },
+    {
+      "id": "sloped_platform_13580",
+      "taxonomy": "sloped_platform",
+      "family": "inhabitable slope",
+      "title": "Sloped Platform #4",
+      "timestamp_sec": 453.119,
+      "size": {
+        "width": 177,
+        "height": 139,
+        "depth": 117
+      },
+      "tilt": -9.0,
+      "elevation": 45.11,
+      "radius": 12.36,
+      "alpha_coverage_ratio": 0.5396842173729227,
+      "brightness": 119.64576686022912,
+      "source_image": "output/final_results/sloped_platform_13580_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_452852.jpg",
+      "palette": [
+        "#7c5535",
+        "#e09f3e",
+        "#f4f1de"
+      ],
+      "rules": {
+        "geometry": "stack broad terraces and taper every second edge to create climbable transitions",
+        "material": "use timber slats, coated plywood, or soft composite seating surfaces",
+        "interaction": "balance sitting, climbing, and pause zones across the slope",
+        "color": "keep the base warm and highlight slope transitions with brighter bands"
+      }
+    },
+    {
+      "id": "sloped_platform_13510",
+      "taxonomy": "sloped_platform",
+      "family": "inhabitable slope",
+      "title": "Sloped Platform #5",
+      "timestamp_sec": 450.784,
+      "size": {
+        "width": 179,
+        "height": 159,
+        "depth": 110
+      },
+      "tilt": -3.0,
+      "elevation": 56.1,
+      "radius": 11.84,
+      "alpha_coverage_ratio": 0.5037157975058796,
+      "brightness": 113.51990063003254,
+      "source_image": "output/final_results/sloped_platform_13510_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_450917.jpg",
+      "palette": [
+        "#7c5535",
+        "#e09f3e",
+        "#f4f1de"
+      ],
+      "rules": {
+        "geometry": "stack broad terraces and taper every second edge to create climbable transitions",
+        "material": "use timber slats, coated plywood, or soft composite seating surfaces",
+        "interaction": "balance sitting, climbing, and pause zones across the slope",
+        "color": "keep the base warm and highlight slope transitions with brighter bands"
+      }
+    },
+    {
+      "id": "sloped_platform_13524",
+      "taxonomy": "sloped_platform",
+      "family": "inhabitable slope",
+      "title": "Sloped Platform #6",
+      "timestamp_sec": 451.251,
+      "size": {
+        "width": 177,
+        "height": 159,
+        "depth": 109
+      },
+      "tilt": 3.0,
+      "elevation": 31.95,
+      "radius": 11.83,
+      "alpha_coverage_ratio": 0.4980767187839408,
+      "brightness": 114.15968070043589,
+      "source_image": "output/final_results/sloped_platform_13524_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_450917.jpg",
+      "palette": [
+        "#7c5535",
+        "#e09f3e",
+        "#f4f1de"
+      ],
+      "rules": {
+        "geometry": "stack broad terraces and taper every second edge to create climbable transitions",
+        "material": "use timber slats, coated plywood, or soft composite seating surfaces",
+        "interaction": "balance sitting, climbing, and pause zones across the slope",
+        "color": "keep the base warm and highlight slope transitions with brighter bands"
+      }
+    },
+    {
+      "id": "sloped_platform_13496",
+      "taxonomy": "sloped_platform",
+      "family": "inhabitable slope",
+      "title": "Sloped Platform #7",
+      "timestamp_sec": 450.317,
+      "size": {
+        "width": 181,
+        "height": 158,
+        "depth": 109
+      },
+      "tilt": 9.0,
+      "elevation": 43.86,
+      "radius": 11.92,
+      "alpha_coverage_ratio": 0.4951244853797057,
+      "brightness": 113.19069217568833,
+      "source_image": "output/final_results/sloped_platform_13496_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_449949.jpg",
+      "palette": [
+        "#7c5535",
+        "#e09f3e",
+        "#f4f1de"
+      ],
+      "rules": {
+        "geometry": "stack broad terraces and taper every second edge to create climbable transitions",
+        "material": "use timber slats, coated plywood, or soft composite seating surfaces",
+        "interaction": "balance sitting, climbing, and pause zones across the slope",
+        "color": "keep the base warm and highlight slope transitions with brighter bands"
+      }
+    },
+    {
+      "id": "sloped_platform_13538",
+      "taxonomy": "sloped_platform",
+      "family": "inhabitable slope",
+      "title": "Sloped Platform #8",
+      "timestamp_sec": 451.718,
+      "size": {
+        "width": 176,
+        "height": 162,
+        "depth": 108
+      },
+      "tilt": -9.0,
+      "elevation": 55.77,
+      "radius": 11.74,
+      "alpha_coverage_ratio": 0.4918233340823409,
+      "brightness": 114.15709107307818,
+      "source_image": "output/final_results/sloped_platform_13538_D_analysis.jpg",
+      "nearest_keyframe": "output/keyframes/frame_451884.jpg",
+      "palette": [
+        "#7c5535",
+        "#e09f3e",
+        "#f4f1de"
+      ],
+      "rules": {
+        "geometry": "stack broad terraces and taper every second edge to create climbable transitions",
+        "material": "use timber slats, coated plywood, or soft composite seating surfaces",
+        "interaction": "balance sitting, climbing, and pause zones across the slope",
+        "color": "keep the base warm and highlight slope transitions with brighter bands"
+      }
+    }
+  ]
+}

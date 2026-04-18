@@ -1,0 +1,2503 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-18T01:09:12Z",
+    "timestamp_areas_base": "2026-04-17T11:41:45Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 29714490,
+      "lat": 51.462614,
+      "lon": -0.0791826,
+      "tags": {
+        "created_by": "Potlatch 0.4b",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 29714491,
+      "lat": 51.4630978,
+      "lon": -0.0787634,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 249309944,
+      "lat": 51.5063236,
+      "lon": -0.0592148,
+      "tags": {
+        "access": "yes",
+        "created_by": "Potlatch 0.7b",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 261325952,
+      "lat": 51.4809021,
+      "lon": -0.1259443,
+      "tags": {
+        "created_by": "JOSM",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 262311251,
+      "lat": 51.526442,
+      "lon": -0.013745,
+      "tags": {
+        "description": "play area of under fives",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 262362411,
+      "lat": 51.5097015,
+      "lon": -0.0185808,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 267177617,
+      "lat": 51.5585858,
+      "lon": -0.0873343,
+      "tags": {
+        "created_by": "Potlatch 0.9b",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 270420485,
+      "lat": 51.5042527,
+      "lon": -0.046808,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 343528685,
+      "lat": 51.5863191,
+      "lon": -0.0966471,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 362490476,
+      "lat": 51.5263945,
+      "lon": -0.1423313,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 391041064,
+      "lat": 51.4904427,
+      "lon": -0.0903225,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 392107162,
+      "lat": 51.5263265,
+      "lon": -0.0930162,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410715464,
+      "lat": 51.6246089,
+      "lon": -0.2629539,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 412410543,
+      "lat": 51.4982797,
+      "lon": -0.0883493,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 415805067,
+      "lat": 51.4816824,
+      "lon": -0.0630562,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 426087692,
+      "lat": 51.4759384,
+      "lon": -0.0757249,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 426087703,
+      "lat": 51.4762281,
+      "lon": -0.0766173,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 469789265,
+      "lat": 51.5884868,
+      "lon": -0.1024832,
+      "tags": {
+        "leisure": "playground",
+        "local_ref": "U",
+        "name": "Ducketts Common playground",
+        "naptan:AtcoCode": "490015475U",
+        "naptan:Bearing": "N",
+        "naptan:CommonName": "Turnpike Lane Station U Y",
+        "naptan:Indicator": "Stop U",
+        "naptan:Street": "GREEN LANES",
+        "naptan:verified": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 475251875,
+      "lat": 51.4684223,
+      "lon": -0.1029348,
+      "tags": {
+        "leisure": "playground",
+        "name": "Grove Adventure Playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 485351956,
+      "lat": 51.5293317,
+      "lon": -0.1429465,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 511711403,
+      "lat": 51.5177968,
+      "lon": -0.1868132,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 528226318,
+      "lat": 51.4531056,
+      "lon": -0.3315011,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 595687523,
+      "lat": 51.5399313,
+      "lon": -0.2304887,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 597408914,
+      "lat": 51.5876337,
+      "lon": -0.0127144,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 662244966,
+      "lat": 51.5137776,
+      "lon": 0.0207887,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 695809641,
+      "lat": 51.4939202,
+      "lon": -0.0655701,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 697037338,
+      "lat": 51.5099578,
+      "lon": -0.0756371,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 724364694,
+      "lat": 51.51046,
+      "lon": -0.2020648,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 724365075,
+      "lat": 51.5102084,
+      "lon": -0.2029966,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 727367251,
+      "lat": 51.549529,
+      "lon": -0.1968053,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Sumatra Road Play Area"
+      }
+    },
+    {
+      "type": "node",
+      "id": 737848959,
+      "lat": 51.5487146,
+      "lon": -0.1993875,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 743009740,
+      "lat": 51.5191078,
+      "lon": -0.123392,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 759843340,
+      "lat": 51.5676784,
+      "lon": -0.0778274,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 759843357,
+      "lat": 51.5682437,
+      "lon": -0.0781733,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 995065771,
+      "lat": 51.5527257,
+      "lon": -0.1605993,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1011595862,
+      "lat": 51.5160004,
+      "lon": -0.1850272,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1126026199,
+      "lat": 51.492437,
+      "lon": -0.1135055,
+      "tags": {
+        "leisure": "playground",
+        "source": "Bing;survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1126114881,
+      "lat": 51.494102,
+      "lon": -0.112217,
+      "tags": {
+        "leisure": "playground",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1129448150,
+      "lat": 51.522906,
+      "lon": -0.1025734,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1145233938,
+      "lat": 51.5261214,
+      "lon": -0.1028763,
+      "tags": {
+        "leisure": "playground",
+        "name": "Brunswick Estate Play Area"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1180273833,
+      "lat": 51.5638223,
+      "lon": -0.1347258,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1237044496,
+      "lat": 51.4974232,
+      "lon": -0.1131822,
+      "tags": {
+        "leisure": "playground",
+        "source": "survey; Bing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1305571445,
+      "lat": 51.4981755,
+      "lon": -0.2159851,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1312974190,
+      "lat": 51.5673544,
+      "lon": -0.1445201,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1335567728,
+      "lat": 51.5951045,
+      "lon": -0.097305,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1360475630,
+      "lat": 51.5362111,
+      "lon": -0.1179104,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1397699607,
+      "lat": 51.5735657,
+      "lon": 0.1308621,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1499049189,
+      "lat": 51.5875633,
+      "lon": -0.1430589,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Tree Swing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1550547597,
+      "lat": 43.0047539,
+      "lon": -81.3059013,
+      "tags": {
+        "leisure": "playground",
+        "name": "The Little Gym of London"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1584900215,
+      "lat": 51.5609904,
+      "lon": -0.0073657,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1648342162,
+      "lat": 51.5031219,
+      "lon": -0.20702,
+      "tags": {
+        "leisure": "playground",
+        "name": "nature play garden"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1681568012,
+      "lat": 51.5101151,
+      "lon": -0.2065146,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1685281116,
+      "lat": 51.5192595,
+      "lon": -0.0918254,
+      "tags": {
+        "access": "private",
+        "leisure": "playground",
+        "source": "Bing;photographic_survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1735696650,
+      "lat": 51.4887093,
+      "lon": -0.0298121,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Upper Pepys Park Playground",
+        "source": "local_knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1815278863,
+      "lat": 51.4809901,
+      "lon": -0.0996708,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1834187282,
+      "lat": 51.6147439,
+      "lon": -0.0840129,
+      "tags": {
+        "leisure": "playground",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1936244714,
+      "lat": 42.9536243,
+      "lon": -81.2335175,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2056088626,
+      "lat": 51.4469256,
+      "lon": -0.3297737,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2065712009,
+      "lat": 51.5725947,
+      "lon": -0.1308586,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2065712038,
+      "lat": 51.5729869,
+      "lon": -0.1313363,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2112680901,
+      "lat": 51.4683041,
+      "lon": -0.2901032,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2122105963,
+      "lat": 42.9513364,
+      "lon": -81.2702037,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2122105964,
+      "lat": 42.9521177,
+      "lon": -81.2686479,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2122106742,
+      "lat": 42.9490806,
+      "lon": -81.2681597,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2168835629,
+      "lat": 51.4560608,
+      "lon": -0.1182606,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2257593092,
+      "lat": 51.5964953,
+      "lon": -0.0375915,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2308444310,
+      "lat": 51.523444,
+      "lon": -0.0193429,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2341495566,
+      "lat": 51.5766398,
+      "lon": -0.1019012,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2344481654,
+      "lat": 51.5763073,
+      "lon": -0.4246608,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Churchfield Gardens"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417949821,
+      "lat": 51.4404062,
+      "lon": -0.0631736,
+      "tags": {
+        "leisure": "playground",
+        "name": "Outdoor climbing wall",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2418380275,
+      "lat": 51.4464832,
+      "lon": -0.3249767,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Play Beach",
+        "playground:theme": "ship",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2443788233,
+      "lat": 51.5478596,
+      "lon": -0.0076766,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Prize Walk Playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2451299694,
+      "lat": 51.6332222,
+      "lon": -0.0535961,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2458261088,
+      "lat": 51.5594681,
+      "lon": -0.1136026,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2740703344,
+      "lat": 51.572967,
+      "lon": -0.0945873,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2882744805,
+      "lat": 51.4742571,
+      "lon": -0.0693037,
+      "tags": {
+        "leisure": "playground",
+        "sport": "table_tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2916660680,
+      "lat": 51.4764214,
+      "lon": -0.065417,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2916660699,
+      "lat": 51.4769558,
+      "lon": -0.0652324,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3243817892,
+      "lat": 51.6358087,
+      "lon": -0.1032182,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3637396650,
+      "lat": 51.5239381,
+      "lon": -0.1384545,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "The Warren"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3654920629,
+      "lat": 51.5955482,
+      "lon": -0.0214201,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3707840068,
+      "lat": 51.5787462,
+      "lon": -0.3370584,
+      "tags": {
+        "access": "yes",
+        "fee": "no",
+        "leisure": "playground",
+        "playground": "springy",
+        "source": "survey",
+        "survey:date": "2015-08-17"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3717358335,
+      "lat": 51.5635818,
+      "lon": -0.1198801,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3720513795,
+      "lat": 51.5813468,
+      "lon": -0.1464929,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3736633231,
+      "lat": 51.5357511,
+      "lon": -0.1934252,
+      "tags": {
+        "check_date": "2019-11-17",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3762435001,
+      "lat": 51.4846779,
+      "lon": -0.3343016,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3811569428,
+      "lat": 51.5661134,
+      "lon": -0.0924182,
+      "tags": {
+        "leisure": "playground",
+        "source": "gps+mapnoter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3814578486,
+      "lat": 51.5854638,
+      "lon": -0.0377561,
+      "tags": {
+        "leisure": "playground",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3974508542,
+      "lat": 51.5511187,
+      "lon": -0.099282,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "source": "gps+mapnoter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4068378388,
+      "lat": 51.4312736,
+      "lon": 0.0467617,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4068510492,
+      "lat": 51.4581235,
+      "lon": 0.1415133,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4104233607,
+      "lat": 51.5764003,
+      "lon": -0.0283771,
+      "tags": {
+        "leisure": "playground",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4205128675,
+      "lat": 51.5459738,
+      "lon": -0.4848404,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4213421892,
+      "lat": 51.3403577,
+      "lon": -0.3211962,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4265487845,
+      "lat": 51.5700801,
+      "lon": 0.1048226,
+      "tags": {
+        "leisure": "playground",
+        "source": "bing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4314539930,
+      "lat": 51.4709868,
+      "lon": -0.3280074,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4345162206,
+      "lat": 51.5635,
+      "lon": -0.1112886,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4346552099,
+      "lat": 51.6297527,
+      "lon": -0.0492239,
+      "tags": {
+        "leisure": "playground",
+        "source": "gps+mapnoter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4351817999,
+      "lat": 51.5631405,
+      "lon": -0.1138544,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4362046674,
+      "lat": 51.5565115,
+      "lon": -0.0784835,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4393353470,
+      "lat": 51.5606377,
+      "lon": 0.1630354,
+      "tags": {
+        "leisure": "playground",
+        "source": "gps+mapnoter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4404063174,
+      "lat": 51.540966,
+      "lon": 0.0724843,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4413395556,
+      "lat": 51.5720709,
+      "lon": -0.014029,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4441374317,
+      "lat": 51.5054167,
+      "lon": -0.0564988,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4455767286,
+      "lat": 51.5546483,
+      "lon": -0.1346248,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground",
+        "source": "gps+mapnoter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4467731972,
+      "lat": 51.6632131,
+      "lon": -0.0621005,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4467731973,
+      "lat": 51.663427,
+      "lon": -0.0619664,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4478049868,
+      "lat": 51.526504,
+      "lon": -0.0135273,
+      "tags": {
+        "description": "play area of over fives",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4526674091,
+      "lat": 51.39532,
+      "lon": -0.0783436,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "South Norwood Recreation Ground",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4561916629,
+      "lat": 51.5916929,
+      "lon": -0.0006216,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4575506693,
+      "lat": 51.6034875,
+      "lon": -0.0152904,
+      "tags": {
+        "leisure": "playground",
+        "operator": "London & Quadrant",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4643470501,
+      "lat": 51.6076434,
+      "lon": -0.0039916,
+      "tags": {
+        "access": "residents",
+        "leisure": "playground",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4700201905,
+      "lat": 51.6418978,
+      "lon": -0.0380778,
+      "tags": {
+        "fixme": "pgtd",
+        "leisure": "playground",
+        "source": "gps+mapnoter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4721120231,
+      "lat": 51.6052165,
+      "lon": -0.284146,
+      "tags": {
+        "leisure": "playground",
+        "source": "gps+mapnoter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4721120244,
+      "lat": 51.6046715,
+      "lon": -0.2845931,
+      "tags": {
+        "leisure": "playground",
+        "source": "gps+mapnoter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4735866940,
+      "lat": 51.5239603,
+      "lon": -0.2216298,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4746119025,
+      "lat": 51.5534226,
+      "lon": -0.0976842,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836980797,
+      "lat": 51.5916261,
+      "lon": -0.2621508,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4848974988,
+      "lat": 51.5077128,
+      "lon": -0.2950758,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4883636474,
+      "lat": 51.485913,
+      "lon": -0.0564756,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4951670680,
+      "lat": 51.5040485,
+      "lon": 0.1258119,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4972060152,
+      "lat": 51.5682317,
+      "lon": 0.0712419,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "source": "gps+mapnoter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4976670149,
+      "lat": 51.6030529,
+      "lon": -0.0142004,
+      "tags": {
+        "leisure": "playground",
+        "operator": "London & Quadrant",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5136533157,
+      "lat": 51.5224714,
+      "lon": -0.1689711,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5199088954,
+      "lat": 43.0280099,
+      "lon": -81.2615107,
+      "tags": {
+        "leisure": "playground",
+        "name": "Stoneybrook Play Equipment"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5315174457,
+      "lat": 51.6031484,
+      "lon": -0.0154081,
+      "tags": {
+        "leisure": "playground",
+        "min_age": "12",
+        "operator": "London & Quadrant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5331971723,
+      "lat": 51.571522,
+      "lon": -0.0062738,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5353278947,
+      "lat": 51.4967393,
+      "lon": -0.0664879,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5364065782,
+      "lat": 51.5908541,
+      "lon": 0.2262898,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5370783340,
+      "lat": 51.5746374,
+      "lon": 0.1793634,
+      "tags": {
+        "access": "customers",
+        "contact:instagram": "https://www.instagram.com/kidspaceromford/",
+        "indoor": "yes",
+        "leisure": "playground",
+        "name": "Kidspace Romford",
+        "operator": "Kidspace Romford",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5590326343,
+      "lat": 51.4860742,
+      "lon": -0.3560588,
+      "tags": {
+        "leisure": "playground",
+        "name": "Den Arena"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5590326350,
+      "lat": 51.4868995,
+      "lon": -0.3572184,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5599092643,
+      "lat": 42.9959296,
+      "lon": -81.3222938,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5604640610,
+      "lat": 51.4774606,
+      "lon": -0.1396519,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5612658697,
+      "lat": 51.587758,
+      "lon": 0.0364942,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5627476566,
+      "lat": 51.4692542,
+      "lon": -0.1009503,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5828193788,
+      "lat": 51.543939,
+      "lon": -0.0079146,
+      "tags": {
+        "check_date": "2024-11-12",
+        "leisure": "playground",
+        "level": "-1",
+        "name": "Woodland Trail"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5837200429,
+      "lat": 51.3567012,
+      "lon": -0.1149063,
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:housename": "Colonnades",
+        "addr:housenumber": "619",
+        "addr:postcode": "CR0 4RQ",
+        "addr:street": "Purley Way",
+        "addr:unit": "3",
+        "contact:instagram": "https://www.instagram.com/kidspacecroydon/",
+        "fhrs:authority": "Croydon",
+        "fhrs:id": "22471",
+        "leisure": "playground",
+        "name": "Kidspace Adventures"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5837230222,
+      "lat": 51.4702037,
+      "lon": -0.0838844,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5838572886,
+      "lat": 51.4798311,
+      "lon": -0.0667548,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5838572887,
+      "lat": 51.4809202,
+      "lon": -0.0665295,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5846641277,
+      "lat": 51.4801075,
+      "lon": -0.0557792,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5861200424,
+      "lat": 51.4813386,
+      "lon": -0.067876,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5868259095,
+      "lat": 51.4719734,
+      "lon": -0.0815512,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5868259096,
+      "lat": 51.4719642,
+      "lon": -0.0818436,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5871332574,
+      "lat": 51.4726768,
+      "lon": -0.0829098,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5907274360,
+      "lat": 51.6036356,
+      "lon": -0.0130183,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5914455050,
+      "lat": 51.3700965,
+      "lon": 0.0434561,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6066940995,
+      "lat": 51.4640037,
+      "lon": -0.2523521,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "max_age": "8",
+        "opening_hours": "09:00-dusk",
+        "operator": "Wandsworth"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6329682566,
+      "lat": 51.4328948,
+      "lon": 0.1398008,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Sidcup",
+        "addr:postcode": "DA14 5ET",
+        "addr:street": "Water Lane",
+        "fhrs:id": "329266",
+        "leisure": "playground",
+        "name": "Crayzee Barn",
+        "source:addr": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6372629402,
+      "lat": 43.0201836,
+      "lon": -81.3190199,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Vista Woods Park Playground",
+        "operator": "City of London",
+        "surface": "woodchips"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6476830030,
+      "lat": 51.4800606,
+      "lon": -0.0917997,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6501707720,
+      "lat": 51.5246427,
+      "lon": -0.1744865,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6566451007,
+      "lat": 51.4900701,
+      "lon": -0.0396127,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6566451008,
+      "lat": 51.4914445,
+      "lon": -0.0381133,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6571018305,
+      "lat": 51.5116531,
+      "lon": -0.0515427,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6582894685,
+      "lat": 51.4120062,
+      "lon": -0.2332248,
+      "tags": {
+        "fhrs:id": "585664",
+        "leisure": "playground",
+        "name": "Sindbads",
+        "note": "Tag leisure=indoor_play is not widely used, so using mainstream tagging",
+        "opening_hours": "Mo-Sa 09:00-18:00; Su 09:30-15:00",
+        "phone": "+44 20 8947 7987",
+        "website": "http://www.sindbads.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6802562302,
+      "lat": 51.4660589,
+      "lon": -0.2768553,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6834471512,
+      "lat": 51.51107,
+      "lon": -0.0206722,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7120377647,
+      "lat": 51.5583708,
+      "lon": -0.3987058,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7257343594,
+      "lat": 51.5241175,
+      "lon": -0.2109285,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7295269083,
+      "lat": 51.4023398,
+      "lon": -0.2011415,
+      "tags": {
+        "leisure": "playground",
+        "name": "Poplar Community Scooter Park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7367260034,
+      "lat": 51.4801042,
+      "lon": -0.2768041,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7368656958,
+      "lat": 51.6007315,
+      "lon": -0.0271735,
+      "tags": {
+        "leisure": "playground",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7368736439,
+      "lat": 51.6019261,
+      "lon": -0.0291207,
+      "tags": {
+        "leisure": "playground",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7379902913,
+      "lat": 51.5936964,
+      "lon": -0.3283822,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7558971697,
+      "lat": 51.6018046,
+      "lon": -0.333366,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7653807998,
+      "lat": 51.3875439,
+      "lon": -0.217613,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7741984418,
+      "lat": 51.5874148,
+      "lon": -0.3235348,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7799521353,
+      "lat": 51.5527116,
+      "lon": -0.1541422,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7822741997,
+      "lat": 51.4887953,
+      "lon": -0.2903464,
+      "tags": {
+        "leisure": "playground",
+        "name": "Splash Zone"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7835855591,
+      "lat": 51.51094,
+      "lon": 0.1329792,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7841628523,
+      "lat": 51.5524613,
+      "lon": -0.1625124,
+      "tags": {
+        "leisure": "playground",
+        "name": "Russell Nursery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7857851261,
+      "lat": 51.5171252,
+      "lon": 0.2044179,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7911128502,
+      "lat": 51.474187,
+      "lon": -0.1835258,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "7",
+        "addr:postcode": "SW6 2PY",
+        "addr:street": "Townmead Road",
+        "alt_name": "Gambado Chelsea",
+        "contact:phone": "+44 20 7384 1635",
+        "contact:website": "https://www.gambado.com/locations/chelsea",
+        "indoor": "yes",
+        "leisure": "playground",
+        "name": "Gambado"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8222245571,
+      "lat": 51.4304705,
+      "lon": 0.0083561,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8329510065,
+      "lat": 42.9746154,
+      "lon": -81.2269364,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8331899225,
+      "lat": 51.4367573,
+      "lon": -0.1221491,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8483931387,
+      "lat": 51.5015588,
+      "lon": -0.1096488,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8553393302,
+      "lat": 51.5289904,
+      "lon": -0.00662,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8627065857,
+      "lat": 51.4979912,
+      "lon": -0.3086969,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8629107745,
+      "lat": 51.4318079,
+      "lon": -0.182713,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8629667751,
+      "lat": 51.4972377,
+      "lon": -0.3121961,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8640312515,
+      "lat": 51.6109469,
+      "lon": -0.0038236,
+      "tags": {
+        "leisure": "playground",
+        "name": "Naseberry Court Play Area"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8693812115,
+      "lat": 51.6090122,
+      "lon": -0.0270791,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8718621587,
+      "lat": 51.4345686,
+      "lon": -0.187605,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8747137887,
+      "lat": 51.5514473,
+      "lon": -0.1942163,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8833972846,
+      "lat": 51.5010101,
+      "lon": -0.2524557,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8883436077,
+      "lat": 51.4977434,
+      "lon": -0.1108525,
+      "tags": {
+        "access": "private",
+        "leisure": "playground",
+        "name": "Small Playground",
+        "operator": "Wellington Mills Estate"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8883436078,
+      "lat": 51.4977065,
+      "lon": -0.1117279,
+      "tags": {
+        "access": "private",
+        "leisure": "playground",
+        "name": "Big Playground",
+        "operator": "Wellington Mills Estate"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8979004400,
+      "lat": 51.5307161,
+      "lon": -0.0076285,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8999414959,
+      "lat": 51.4646549,
+      "lon": -0.3795617,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9018024597,
+      "lat": 51.4311285,
+      "lon": -0.0812119,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9032789682,
+      "lat": 51.6086128,
+      "lon": -0.0067844,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9042067141,
+      "lat": 51.4935138,
+      "lon": 0.010823,
+      "tags": {
+        "access": "private",
+        "leisure": "playground",
+        "name": "Teletubby Land"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9166265095,
+      "lat": 51.5367834,
+      "lon": -0.022689,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9173826866,
+      "lat": 51.4944725,
+      "lon": -0.2183961,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9204665733,
+      "lat": 51.4673294,
+      "lon": -0.2154458,
+      "tags": {
+        "leisure": "playground",
+        "name": "Point pocket Park play area"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9349142948,
+      "lat": 51.4089058,
+      "lon": -0.3337006,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9423469062,
+      "lat": 51.6015604,
+      "lon": -0.0284371,
+      "tags": {
+        "leisure": "playground",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9428563165,
+      "lat": 51.5456635,
+      "lon": -0.2279441,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9442802885,
+      "lat": 51.5895919,
+      "lon": 0.0012012,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9494983769,
+      "lat": 51.5332473,
+      "lon": -0.1692296,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9524822925,
+      "lat": 51.5124709,
+      "lon": -0.0739563,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9590833015,
+      "lat": 51.5465808,
+      "lon": -0.002595,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9590833016,
+      "lat": 51.5467401,
+      "lon": -0.0027441,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9590918417,
+      "lat": 51.5469762,
+      "lon": -0.0030432,
+      "tags": {
+        "access": "private",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9643871660,
+      "lat": 51.5252444,
+      "lon": -0.4313301,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9657329033,
+      "lat": 51.5878066,
+      "lon": -0.0689076,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9893329788,
+      "lat": 51.5821796,
+      "lon": 0.0007938,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9906218770,
+      "lat": 51.4566388,
+      "lon": -0.3978978,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground",
+        "name": "Jumping Pillow"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9906218771,
+      "lat": 51.456608,
+      "lon": -0.3972765,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground",
+        "name": "Mining Village"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9906218772,
+      "lat": 51.4566261,
+      "lon": -0.3968864,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground",
+        "name": "Jumping Pillow"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9913358561,
+      "lat": 51.3781117,
+      "lon": 0.0152068,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9955140840,
+      "lat": 51.5164315,
+      "lon": -0.0401579,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9993520811,
+      "lat": 51.5555324,
+      "lon": -0.1973864,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10012367400,
+      "lat": 51.5185532,
+      "lon": -0.0560232,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10142966075,
+      "lat": 35.3335279,
+      "lon": -93.2469811,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10143163717,
+      "lat": 51.5291779,
+      "lon": -0.0598353,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10186721888,
+      "lat": 51.4923865,
+      "lon": 0.0153031,
+      "tags": {
+        "access": "private",
+        "leisure": "playground",
+        "playground:theme": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10202584230,
+      "lat": 51.4999749,
+      "lon": -0.2866527,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10294904195,
+      "lat": 51.5437929,
+      "lon": -0.0087279,
+      "tags": {
+        "check_date": "2025-02-18",
+        "leisure": "playground",
+        "level": "1",
+        "name": "Disney Playworld"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10597022957,
+      "lat": 51.5500792,
+      "lon": -0.2391337,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10604066000,
+      "lat": 51.4324298,
+      "lon": -0.0195508,
+      "tags": {
+        "check_date": "2023-08-26",
+        "indoor_play": "soft_play",
+        "leisure": "playground",
+        "level": "0",
+        "max_age": "8",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10657262331,
+      "lat": 51.5920585,
+      "lon": -0.1119362,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground",
+        "name": "Clarendon Play Area",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "operator": "POD Management",
+        "surface": "woodchips"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10699812947,
+      "lat": 51.4096921,
+      "lon": 0.0942652,
+      "tags": {
+        "informal": "yes",
+        "leisure": "playground",
+        "note": "Lines from trees to swing on"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10708191659,
+      "lat": 51.4838022,
+      "lon": -0.0911632,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10708191660,
+      "lat": 51.4836144,
+      "lon": -0.0910494,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10739673327,
+      "lat": 43.0045917,
+      "lon": -81.2168196,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10754526297,
+      "lat": 51.5480428,
+      "lon": -0.1164749,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10768915540,
+      "lat": 43.0187979,
+      "lon": -81.2459321,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10768920425,
+      "lat": 43.0191535,
+      "lon": -81.245997,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10864715697,
+      "lat": 51.5533787,
+      "lon": 0.0700134,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10891747741,
+      "lat": 43.0197788,
+      "lon": -81.1839439,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11083977221,
+      "lat": 51.5026985,
+      "lon": -0.1721619,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11164736553,
+      "lat": 51.583276,
+      "lon": -0.0655496,
+      "tags": {
+        "access": "yes",
+        "dog": "no",
+        "leisure": "playground",
+        "max_age": "12",
+        "min_age": "0",
+        "name": "Stamford Road Park Playground",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11185865586,
+      "lat": 51.4694424,
+      "lon": -0.3618844,
+      "tags": {
+        "indoor": "yes",
+        "leisure": "playground",
+        "name": "Flip Out Hounslow"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11398460506,
+      "lat": 37.1192747,
+      "lon": -84.091611,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11399366433,
+      "lat": 37.1331536,
+      "lon": -84.0865389,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11434865675,
+      "lat": 51.506262,
+      "lon": -0.3901359,
+      "tags": {
+        "access": "yes",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11495736614,
+      "lat": 51.587474,
+      "lon": 0.0763656,
+      "tags": {
+        "leisure": "playground",
+        "playground": "spinner_bowl"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11772130104,
+      "lat": 51.5041443,
+      "lon": 0.0475281,
+      "tags": {
+        "access": "customers",
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11815943608,
+      "lat": 37.1201246,
+      "lon": -84.0603479,
+      "tags": {
+        "leisure": "playground",
+        "name": "Scott Rose Foundation Playground & Musical Park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11819804850,
+      "lat": 37.1103883,
+      "lon": -84.0759395,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11819821175,
+      "lat": 37.1202542,
+      "lon": -84.0609364,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12003386842,
+      "lat": 51.5789424,
+      "lon": -0.1075088,
+      "tags": {
+        "access": "residents",
+        "indoor": "no",
+        "leisure": "playground",
+        "operator": "Homes For Haringey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12057037917,
+      "lat": 51.5515702,
+      "lon": -0.1404914,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12068878622,
+      "lat": 51.5332339,
+      "lon": 0.0777747,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12070432704,
+      "lat": 51.536129,
+      "lon": -0.2901587,
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12426008191,
+      "lat": 51.5011128,
+      "lon": 0.0248579,
+      "tags": {
+        "leisure": "playground"
+      }
+    }
+  ]
+}

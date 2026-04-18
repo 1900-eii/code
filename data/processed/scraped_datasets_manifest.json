@@ -1,0 +1,37 @@
+{
+  "dataset_count": 4,
+  "sources": [
+    {
+      "dataset_name": "london_playgrounds_osm",
+      "dataset_type": "structured_geospatial",
+      "source_site": "Overpass API / OpenStreetMap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "row_count": 250,
+      "paragraph_count": 1
+    },
+    {
+      "dataset_name": "camden_playgrounds_osm",
+      "dataset_type": "structured_geospatial",
+      "source_site": "Overpass API / OpenStreetMap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "row_count": 114,
+      "paragraph_count": 1
+    },
+    {
+      "dataset_name": "islington_playgrounds_osm",
+      "dataset_type": "structured_geospatial",
+      "source_site": "Overpass API / OpenStreetMap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "row_count": 37,
+      "paragraph_count": 1
+    },
+    {
+      "dataset_name": "playscapes_global_map",
+      "dataset_type": "text_reference",
+      "source_site": "Spacescape",
+      "url": "https://www.spacescape.se/try-playscapes-a-new-global-playground-map/",
+      "row_count": 8,
+      "paragraph_count": 8
+    }
+  ]
+}

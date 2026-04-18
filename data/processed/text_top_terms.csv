@@ -1,0 +1,9 @@
+dataset_name,method,top_terms
+london_playgrounds_osm,count,"tags, unspecified, common, records, playground, sand, based, evidence, play, mapped"
+camden_playgrounds_osm,count,"114, tags, playground, records, unspecified, common, play, include, interaction, based"
+islington_playgrounds_osm,count,"tags, common, records, unspecified, playground, elements, public, private, compared, coordinates"
+playscapes_global_map,count,"playscapes, cities, web, global, playground, try, new, places, ask, possible"
+london_playgrounds_osm,tfidf,"tags, common, unspecified, tags unspecified, records, playground, paved, paved records, private 14, private"
+camden_playgrounds_osm,tfidf,"114, unspecified 114, tags, common, unspecified, tags unspecified, records, playground, elements records, playground elements"
+islington_playgrounds_osm,tfidf,"tags, common, unspecified, tags unspecified, records, playground, private yes, yes, private, woodchips"
+playscapes_global_map,tfidf,"playscapes, cities, global, web, new, try, playground, playgrounds, playgroundresearch org, playground access"

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Child-Space Interaction Workflow Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Delivery Demo / 交付展示</p>
+          <h1 id="project-title">Child-Space Interaction Workflow</h1>
+          <p class="lede" id="project-subtitle"></p>
+          <div class="hero-stats" id="hero-stats"></div>
+        </div>
+        <aside class="hero-panel">
+          <p class="overview-label">What This System Does</p>
+          <ul class="hero-list">
+            <li>Extracts child-space interaction evidence from video</li>
+            <li>Scrapes and compares public playground datasets</li>
+            <li>Vectorises image and text datasets for analysis</li>
+            <li>Visualises the workflow as charts, fragments, and Blender exports</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="overview-grid">
+        <article class="overview-card overview-card-wide">
+          <p class="overview-label">System Narrative</p>
+          <h2>From observed play behavior to reusable design fragments</h2>
+          <p>
+            This interface is the final delivery view for the project. It combines video-based machine learning,
+            structured web scraping, vectorisation, analysis plots, mock design-rule generation, and Blender-ready export
+            into one client-facing demo.
+          </p>
+        </article>
+        <article class="overview-card">
+          <p class="overview-label">Taxonomy Summary</p>
+          <div class="taxonomy-pills" id="taxonomy-pills"></div>
+        </article>
+      </section>
+
+      <section class="section-card">
+        <div class="section-header">
+          <p class="section-kicker">Architecture</p>
+          <h2>System Workflow</h2>
+          <p>The complete workflow is presented as a staged design-and-analysis pipeline.</p>
+        </div>
+        <div class="workflow-grid" id="workflow-grid"></div>
+      </section>
+
+      <section class="section-card">
+        <div class="section-header">
+          <p class="section-kicker">Scraping</p>
+          <h2>Public Reference Datasets</h2>
+          <p>Structured geospatial datasets and text references used to contextualize the ML evidence.</p>
+        </div>
+        <div class="dataset-grid" id="dataset-grid"></div>
+      </section>
+
+      <section class="section-card">
+        <div class="section-header">
+          <p class="section-kicker">Analytics</p>
+          <h2>Plots and Evidence</h2>
+          <p>These figures summarize the ML outputs, text vectorisation results, and scraped dataset scale.</p>
+        </div>
+        <div class="plot-grid" id="plot-grid"></div>
+      </section>
+
+      <section class="section-card">
+        <div class="section-header">
+          <p class="section-kicker">Fragment Lab</p>
+          <h2>Interactive Design Fragments</h2>
+          <p>Browse taxonomy-based fragment families, inspect source evidence, and export Blender-ready data.</p>
+        </div>
+
+        <section class="toolbar">
+          <label>
+            Taxonomy
+            <select id="taxonomy-filter">
+              <option value="all">All</option>
+            </select>
+          </label>
+          <label>
+            Sort
+            <select id="sort-mode">
+              <option value="timestamp">Timeline</option>
+              <option value="brightness">Brightness</option>
+              <option value="coverage">Coverage</option>
+            </select>
+          </label>
+          <button class="toolbar-button" id="download-scene" type="button">Download Scene JSON</button>
+          <button class="toolbar-button" id="download-blender-full" type="button">Export Full Blender JSON</button>
+          <button class="toolbar-button" id="download-blender-full-csv" type="button">Export Full Blender CSV</button>
+          <button class="toolbar-button" id="download-blender-filtered" type="button">Export Filtered Blender JSON</button>
+          <button class="toolbar-button" id="download-blender-filtered-csv" type="button">Export Filtered Blender CSV</button>
+          <button class="toolbar-button" id="download-blender-selected" type="button">Export Selected Fragment</button>
+        </section>
+
+        <div class="fragment-layout">
+          <div class="stage-wrap">
+            <div class="stage" id="stage"></div>
+          </div>
+          <aside class="inspector" id="inspector">
+            <h2>Fragment Inspector</h2>
+            <p>Select a fragment card to inspect its rules and source metrics.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-card">
+        <div class="section-header">
+          <p class="section-kicker">Delivery</p>
+          <h2>Files Ready for Handoff</h2>
+          <p>Core artifacts that can be shared with the client, written into a report, or passed to Blender.</p>
+        </div>
+        <div class="deliverable-grid" id="deliverable-grid"></div>
+      </section>
+    </main>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
