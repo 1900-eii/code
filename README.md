@@ -1,4 +1,4 @@
-# Child-Space Interaction Workflow
+# 	Child-Space Interaction Workflow
 
 # 儿童与建筑空间互动分析工作流
 
@@ -266,9 +266,9 @@ workshop2/
 
 #### English
 
-- [code/index.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/code/index.py:1)
+- [code/index.py](code/index.py)
   Samples keyframes from the input video and stores CLIP embeddings in `output/video_index.pkl`.
-- [code/mine.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/code/mine.py:1)
+- [code/mine.py](code/mine.py)
   The main detection script. It:
 
   - reads video frames
@@ -280,9 +280,9 @@ workshop2/
 
 #### 中文
 
-- [code/index.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/code/index.py:1)
+- [code/index.py](code/index.py)
   从输入视频中抽取关键帧，并把 CLIP 特征保存到 `output/video_index.pkl`。
-- [code/mine.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/code/mine.py:1)
+- [code/mine.py](code/mine.py)
   主识别脚本。它会：
 
   - 读取视频帧
@@ -296,54 +296,54 @@ workshop2/
 
 #### English
 
-- [workflow/common.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/common.py:1)
+- [workflow/common.py](workflow/common.py)
   Shared paths, scrape definitions, regex parsing, and utility helpers.
-- [workflow/scrape_datasets.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/scrape_datasets.py:1)
+- [workflow/scrape_datasets.py](workflow/scrape_datasets.py)
   Scrapes public references from:
 
   - OpenStreetMap playground data for London
   - OpenStreetMap playground data for Camden
   - OpenStreetMap playground data for Islington
   - Spacescape Playscapes article
-- [workflow/build_analysis_dataset.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/build_analysis_dataset.py:1)
+- [workflow/build_analysis_dataset.py](workflow/build_analysis_dataset.py)
   Converts exported image sets into a structured table and links each record to the nearest CLIP keyframe.
-- [workflow/vectorize_and_plot.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/vectorize_and_plot.py:1)
+- [workflow/vectorize_and_plot.py](workflow/vectorize_and_plot.py)
   Runs text vectorisation, PCA, similarity analysis, and produces plots.
-- [workflow/mock_api.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/mock_api.py:1)
+- [workflow/mock_api.py](workflow/mock_api.py)
   Simulates a downstream generative/analytical API response using deterministic design-rule templates.
-- [workflow/export_frontend_scene.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/export_frontend_scene.py:1)
+- [workflow/export_frontend_scene.py](workflow/export_frontend_scene.py)
   Translates analysis outputs into front-end scene fragments.
-- [workflow/export_blender_package.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/export_blender_package.py:1)
+- [workflow/export_blender_package.py](workflow/export_blender_package.py)
   Builds a Blender-ready JSON / CSV package from the rendered fragments.
-- [workflow/generate_submission_notes.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/generate_submission_notes.py:1)
+- [workflow/generate_submission_notes.py](workflow/generate_submission_notes.py)
   Builds a concise handoff/report note automatically.
-- [workflow/run_workflow.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/run_workflow.py:1)
+- [workflow/run_workflow.py](workflow/run_workflow.py)
   Runs all stages in sequence.
 
 #### 中文
 
-- [workflow/common.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/common.py:1)
+- [workflow/common.py](workflow/common.py)
   定义共用路径、抓取配置、文件解析规则和基础工具函数。
-- [workflow/scrape_datasets.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/scrape_datasets.py:1)
+- [workflow/scrape_datasets.py](workflow/scrape_datasets.py)
   抓取公共参考数据，目前包括：
 
   - OpenStreetMap 的 London playground 数据
   - OpenStreetMap 的 Camden playground 数据
   - OpenStreetMap 的 Islington playground 数据
   - Spacescape Playscapes 文章
-- [workflow/build_analysis_dataset.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/build_analysis_dataset.py:1)
+- [workflow/build_analysis_dataset.py](workflow/build_analysis_dataset.py)
   把导出的互动图片结果转成结构化表格，并把每条记录关联到最近的 CLIP 关键帧。
-- [workflow/vectorize_and_plot.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/vectorize_and_plot.py:1)
+- [workflow/vectorize_and_plot.py](workflow/vectorize_and_plot.py)
   负责文本向量化、PCA、相似度分析和绘图输出。
-- [workflow/mock_api.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/mock_api.py:1)
+- [workflow/mock_api.py](workflow/mock_api.py)
   用确定性的设计规则模板模拟后续生成式/分析型 API 的响应。
-- [workflow/export_frontend_scene.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/export_frontend_scene.py:1)
+- [workflow/export_frontend_scene.py](workflow/export_frontend_scene.py)
   把分析结果转成前端场景 fragment 数据。
-- [workflow/export_blender_package.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/export_blender_package.py:1)
+- [workflow/export_blender_package.py](workflow/export_blender_package.py)
   从渲染 fragments 中生成 Blender 可直接使用的 JSON / CSV 数据包。
-- [workflow/generate_submission_notes.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/generate_submission_notes.py:1)
+- [workflow/generate_submission_notes.py](workflow/generate_submission_notes.py)
   自动生成交付和报告摘要。
-- [workflow/run_workflow.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/run_workflow.py:1)
+- [workflow/run_workflow.py](workflow/run_workflow.py)
   负责顺序执行全部模块。
 
 ### 3. Front-End Renderer | 前端渲染器
@@ -352,26 +352,26 @@ workshop2/
 
 The front-end is a browser-based substitute for the deferred Blender stage.
 
-- [frontend/index.html](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/index.html:1)
+- [frontend/index.html](frontend/index.html)
   Page skeleton and controls.
-- [frontend/styles.css](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/styles.css:1)
+- [frontend/styles.css](frontend/styles.css)
   Visual system and layout.
-- [frontend/app.js](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/app.js:1)
+- [frontend/app.js](frontend/app.js)
   Loads `scene.json`, filters fragments, renders cards, and shows an inspector panel.
-- [frontend/data/scene.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/data/scene.json:1)
+- [frontend/data/scene.json](frontend/data/scene.json)
   Renderable fragment definitions exported from the workflow.
 
 #### 中文
 
 前端部分是对暂缓 Blender 阶段的一种浏览器替代方案。
 
-- [frontend/index.html](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/index.html:1)
+- [frontend/index.html](frontend/index.html)
   页面结构与控件入口。
-- [frontend/styles.css](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/styles.css:1)
+- [frontend/styles.css](frontend/styles.css)
   负责视觉系统和版式。
-- [frontend/app.js](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/app.js:1)
+- [frontend/app.js](frontend/app.js)
   读取 `scene.json`，完成筛选、卡片渲染和 inspector 面板交互。
-- [frontend/data/scene.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/data/scene.json:1)
+- [frontend/data/scene.json](frontend/data/scene.json)
   由 workflow 导出的可渲染 fragment 数据。
 
 ---
@@ -455,7 +455,7 @@ The workflow uses several linked data layers:
 
 The most important structured file is:
 
-- [data/processed/ml_interactions.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/ml_interactions.csv:1)
+- [data/processed/ml_interactions.csv](data/processed/ml_interactions.csv)
 
 It contains fields such as:
 
@@ -485,7 +485,7 @@ It contains fields such as:
 
 其中最关键的结构化文件是：
 
-- [data/processed/ml_interactions.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/ml_interactions.csv:1)
+- [data/processed/ml_interactions.csv](data/processed/ml_interactions.csv)
 
 它包含例如以下字段：
 
@@ -682,83 +682,83 @@ The page also supports:
 
 #### Structured data
 
-- [data/processed/ml_interactions.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/ml_interactions.csv:1)
-- [data/processed/ml_interactions_summary.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/ml_interactions_summary.json:1)
-- [data/processed/ml_clip_vectors.npy](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/ml_clip_vectors.npy:1)
-- [data/processed/engineered_vectors.npy](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/engineered_vectors.npy:1)
+- [data/processed/ml_interactions.csv](data/processed/ml_interactions.csv)
+- [data/processed/ml_interactions_summary.json](data/processed/ml_interactions_summary.json)
+- [data/processed/ml_clip_vectors.npy](data/processed/ml_clip_vectors.npy)
+- [data/processed/engineered_vectors.npy](data/processed/engineered_vectors.npy)
 
 #### Scraped data
 
-- [data/processed/scraped_datasets.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/scraped_datasets.csv:1)
-- [data/processed/scraped_paragraphs.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/scraped_paragraphs.csv:1)
-- [data/processed/scraped_datasets_manifest.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/scraped_datasets_manifest.json:1)
+- [data/processed/scraped_datasets.csv](data/processed/scraped_datasets.csv)
+- [data/processed/scraped_paragraphs.csv](data/processed/scraped_paragraphs.csv)
+- [data/processed/scraped_datasets_manifest.json](data/processed/scraped_datasets_manifest.json)
 
 #### Vectorisation and comparison
 
-- [data/processed/vector_method_summary.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/vector_method_summary.csv:1)
-- [data/processed/text_top_terms.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/text_top_terms.csv:1)
-- [data/processed/count_similarity.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/count_similarity.csv:1)
-- [data/processed/tfidf_similarity.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/tfidf_similarity.csv:1)
+- [data/processed/vector_method_summary.csv](data/processed/vector_method_summary.csv)
+- [data/processed/text_top_terms.csv](data/processed/text_top_terms.csv)
+- [data/processed/count_similarity.csv](data/processed/count_similarity.csv)
+- [data/processed/tfidf_similarity.csv](data/processed/tfidf_similarity.csv)
 
 #### Render and report outputs
 
-- [data/processed/mock_api_design_rules.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/mock_api_design_rules.json:1)
-- [data/processed/blender_fragment_seed_table.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/blender_fragment_seed_table.csv:1)
-- [data/processed/blender_ready_fragments.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/blender_ready_fragments.json:1)
-- [data/processed/blender_ready_fragments.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/blender_ready_fragments.csv:1)
-- [frontend/data/scene.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/data/scene.json:1)
-- [SUBMISSION_NOTES.md](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/SUBMISSION_NOTES.md:1)
+- [data/processed/mock_api_design_rules.json](data/processed/mock_api_design_rules.json)
+- [data/processed/blender_fragment_seed_table.csv](data/processed/blender_fragment_seed_table.csv)
+- [data/processed/blender_ready_fragments.json](data/processed/blender_ready_fragments.json)
+- [data/processed/blender_ready_fragments.csv](data/processed/blender_ready_fragments.csv)
+- [frontend/data/scene.json](frontend/data/scene.json)
+- [SUBMISSION_NOTES.md](SUBMISSION_NOTES.md)
 
 #### Plots
 
-- [data/plots/taxonomy_distribution.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/taxonomy_distribution.png:1)
-- [data/plots/interaction_timeline.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/interaction_timeline.png:1)
-- [data/plots/engineered_pca.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/engineered_pca.png:1)
-- [data/plots/clip_pca.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/clip_pca.png:1)
-- [data/plots/count_similarity_heatmap.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/count_similarity_heatmap.png:1)
-- [data/plots/tfidf_similarity_heatmap.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/tfidf_similarity_heatmap.png:1)
-- [data/plots/tfidf_projection.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/tfidf_projection.png:1)
+- [data/plots/taxonomy_distribution.png](data/plots/taxonomy_distribution.png)
+- [data/plots/interaction_timeline.png](data/plots/interaction_timeline.png)
+- [data/plots/engineered_pca.png](data/plots/engineered_pca.png)
+- [data/plots/clip_pca.png](data/plots/clip_pca.png)
+- [data/plots/count_similarity_heatmap.png](data/plots/count_similarity_heatmap.png)
+- [data/plots/tfidf_similarity_heatmap.png](data/plots/tfidf_similarity_heatmap.png)
+- [data/plots/tfidf_projection.png](data/plots/tfidf_projection.png)
 
 ### 中文
 
 #### 结构化数据
 
-- [data/processed/ml_interactions.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/ml_interactions.csv:1)
-- [data/processed/ml_interactions_summary.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/ml_interactions_summary.json:1)
-- [data/processed/ml_clip_vectors.npy](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/ml_clip_vectors.npy:1)
-- [data/processed/engineered_vectors.npy](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/engineered_vectors.npy:1)
+- [data/processed/ml_interactions.csv](data/processed/ml_interactions.csv)
+- [data/processed/ml_interactions_summary.json](data/processed/ml_interactions_summary.json)
+- [data/processed/ml_clip_vectors.npy](data/processed/ml_clip_vectors.npy)
+- [data/processed/engineered_vectors.npy](data/processed/engineered_vectors.npy)
 
 #### 抓取数据
 
-- [data/processed/scraped_datasets.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/scraped_datasets.csv:1)
-- [data/processed/scraped_paragraphs.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/scraped_paragraphs.csv:1)
-- [data/processed/scraped_datasets_manifest.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/scraped_datasets_manifest.json:1)
+- [data/processed/scraped_datasets.csv](data/processed/scraped_datasets.csv)
+- [data/processed/scraped_paragraphs.csv](data/processed/scraped_paragraphs.csv)
+- [data/processed/scraped_datasets_manifest.json](data/processed/scraped_datasets_manifest.json)
 
 #### 向量化与对比
 
-- [data/processed/vector_method_summary.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/vector_method_summary.csv:1)
-- [data/processed/text_top_terms.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/text_top_terms.csv:1)
-- [data/processed/count_similarity.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/count_similarity.csv:1)
-- [data/processed/tfidf_similarity.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/tfidf_similarity.csv:1)
+- [data/processed/vector_method_summary.csv](data/processed/vector_method_summary.csv)
+- [data/processed/text_top_terms.csv](data/processed/text_top_terms.csv)
+- [data/processed/count_similarity.csv](data/processed/count_similarity.csv)
+- [data/processed/tfidf_similarity.csv](data/processed/tfidf_similarity.csv)
 
 #### 渲染与报告输出
 
-- [data/processed/mock_api_design_rules.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/mock_api_design_rules.json:1)
-- [data/processed/blender_fragment_seed_table.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/blender_fragment_seed_table.csv:1)
-- [data/processed/blender_ready_fragments.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/blender_ready_fragments.json:1)
-- [data/processed/blender_ready_fragments.csv](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/processed/blender_ready_fragments.csv:1)
-- [frontend/data/scene.json](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/data/scene.json:1)
-- [SUBMISSION_NOTES.md](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/SUBMISSION_NOTES.md:1)
+- [data/processed/mock_api_design_rules.json](data/processed/mock_api_design_rules.json)
+- [data/processed/blender_fragment_seed_table.csv](data/processed/blender_fragment_seed_table.csv)
+- [data/processed/blender_ready_fragments.json](data/processed/blender_ready_fragments.json)
+- [data/processed/blender_ready_fragments.csv](data/processed/blender_ready_fragments.csv)
+- [frontend/data/scene.json](frontend/data/scene.json)
+- [SUBMISSION_NOTES.md](SUBMISSION_NOTES.md)
 
 #### 图表
 
-- [data/plots/taxonomy_distribution.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/taxonomy_distribution.png:1)
-- [data/plots/interaction_timeline.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/interaction_timeline.png:1)
-- [data/plots/engineered_pca.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/engineered_pca.png:1)
-- [data/plots/clip_pca.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/clip_pca.png:1)
-- [data/plots/count_similarity_heatmap.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/count_similarity_heatmap.png:1)
-- [data/plots/tfidf_similarity_heatmap.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/tfidf_similarity_heatmap.png:1)
-- [data/plots/tfidf_projection.png](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/data/plots/tfidf_projection.png:1)
+- [data/plots/taxonomy_distribution.png](data/plots/taxonomy_distribution.png)
+- [data/plots/interaction_timeline.png](data/plots/interaction_timeline.png)
+- [data/plots/engineered_pca.png](data/plots/engineered_pca.png)
+- [data/plots/clip_pca.png](data/plots/clip_pca.png)
+- [data/plots/count_similarity_heatmap.png](data/plots/count_similarity_heatmap.png)
+- [data/plots/tfidf_similarity_heatmap.png](data/plots/tfidf_similarity_heatmap.png)
+- [data/plots/tfidf_projection.png](data/plots/tfidf_projection.png)
 
 ---
 
@@ -846,7 +846,7 @@ At the time of writing, the workflow has already been run successfully and produ
 
 Deferred for now. Substitute:
 
-- [workflow/mock_api.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/mock_api.py:1)
+- [workflow/mock_api.py](workflow/mock_api.py)
 
 This keeps the workflow structurally complete while avoiding API dependency during development.
 
@@ -854,11 +854,11 @@ This keeps the workflow structurally complete while avoiding API dependency duri
 
 Partially implemented through an export + import bridge.
 
-- [workflow/blender_placeholder.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/blender_placeholder.py:1)
-- [workflow/export_frontend_scene.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/export_frontend_scene.py:1)
-- [workflow/export_blender_package.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/export_blender_package.py:1)
-- [blender/import_fragments.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/blender/import_fragments.py:1)
-- [frontend](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend)
+- [workflow/blender_placeholder.py](workflow/blender_placeholder.py)
+- [workflow/export_frontend_scene.py](workflow/export_frontend_scene.py)
+- [workflow/export_blender_package.py](workflow/export_blender_package.py)
+- [blender/import_fragments.py](blender/import_fragments.py)
+- [frontend](frontend)
 
 This means the project can now export Blender-ready fragment data and import it into Blender through a Python script, even though it still uses simplified geometry rather than a fully bespoke modeling pipeline.
 
@@ -876,7 +876,7 @@ The Blender bridge currently supports:
 
 目前暂缓。替代方案：
 
-- [workflow/mock_api.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/mock_api.py:1)
+- [workflow/mock_api.py](workflow/mock_api.py)
 
 这样可以在开发阶段保持工作流结构完整，同时避免 API 依赖。
 
@@ -884,11 +884,11 @@ The Blender bridge currently supports:
 
 现在已经实现了“导出 + 导入”桥接版本。
 
-- [workflow/blender_placeholder.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/blender_placeholder.py:1)
-- [workflow/export_frontend_scene.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/export_frontend_scene.py:1)
-- [workflow/export_blender_package.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/export_blender_package.py:1)
-- [blender/import_fragments.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/blender/import_fragments.py:1)
-- [frontend](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend)
+- [workflow/blender_placeholder.py](workflow/blender_placeholder.py)
+- [workflow/export_frontend_scene.py](workflow/export_frontend_scene.py)
+- [workflow/export_blender_package.py](workflow/export_blender_package.py)
+- [blender/import_fragments.py](blender/import_fragments.py)
+- [frontend](frontend)
 
 这意味着当前项目已经可以导出 Blender 可用的 fragment 数据，并通过 Python 脚本导入 Blender；只是当前导入的是简化几何，而不是完全定制化的建模逻辑。
 
@@ -926,21 +926,21 @@ The Blender bridge currently supports:
 ### English
 
 - Full workflow runner:
-  [workflow/run_workflow.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/run_workflow.py:1)
+  [workflow/run_workflow.py](workflow/run_workflow.py)
 - Main ML script:
-  [code/mine.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/code/mine.py:1)
+  [code/mine.py](code/mine.py)
 - Front-end prototype:
-  [frontend/index.html](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/index.html:1)
+  [frontend/index.html](frontend/index.html)
 - Submission summary:
-  [SUBMISSION_NOTES.md](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/SUBMISSION_NOTES.md:1)
+  [SUBMISSION_NOTES.md](SUBMISSION_NOTES.md)
 
 ### 中文
 
 - 完整 workflow 入口：
-  [workflow/run_workflow.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/workflow/run_workflow.py:1)
+  [workflow/run_workflow.py](workflow/run_workflow.py)
 - 主 ML 脚本：
-  [code/mine.py](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/code/mine.py:1)
+  [code/mine.py](code/mine.py)
 - 前端原型入口：
-  [frontend/index.html](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/frontend/index.html:1)
+  [frontend/index.html](frontend/index.html)
 - 提交摘要：
-  [SUBMISSION_NOTES.md](/Users/geyu/Desktop/工作文件夹/接单/bite/workshop2/SUBMISSION_NOTES.md:1)
+  [SUBMISSION_NOTES.md](SUBMISSION_NOTES.md)
