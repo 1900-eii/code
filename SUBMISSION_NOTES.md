@@ -47,8 +47,3 @@ This repository now contains a complete non-OpenAI, non-Blender workflow for the
 - Material rule: use timber slats, coated plywood, or soft composite seating surfaces
 - Interaction rule: balance sitting, climbing, and pause zones across the slope
 - Color rule: keep the base warm and highlight slope transitions with brighter bands
-
-## Deferred Items
-
-- Replace `workflow/mock_api.py` with a real OpenAI API client once API use is enabled.
-- Replace the browser renderer with Blender or another 3D software environment if the final submission requires a full modeling workflow.
