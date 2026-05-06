@@ -9,7 +9,7 @@
 This repository implements a data-driven design workflow centered on one topic:
 **analyzing how children interact with architectural or spatial elements in a video, then translating that evidence into reusable design fragments**.
 
-The original repository already contained the core machine-learning prototype:
+The original repository (in workshop 2) already contained the core machine-learning prototype:
 
 - video sampling
 - CLIP-based scene filtering
