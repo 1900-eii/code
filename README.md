@@ -26,7 +26,7 @@ This repository has now been extended into a more complete workflow that also in
 - a mock API layer as a substitute for deferred OpenAI integration
 - a front-end rendering prototype as a substitute for deferred Blender integration
 
-The result is a system that is no longer just a detection script. It is now a **multi-stage research and design pipeline** that can support coursework, documentation, reporting, and later expansion into a real generative or 3D design environment.
+The result is a system that is no longer just a detection script, but a multi-stage research and design pipeline that can be extended into a real generative or 3D design environment.
 
 ### 中文
 
@@ -50,7 +50,7 @@ The result is a system that is no longer just a detection script. It is now a **
 - 用 mock API 替代暂缓接入的 OpenAI API
 - 用前端渲染原型替代暂缓接入的 Blender
 
-因此，这个项目现在不再只是一个识别脚本，而是一套**多阶段的研究与设计流水线**，可以支撑课程作业、报告写作、结果展示，以及后续扩展到真实生成式系统或 3D 设计环境。
+因此，这个项目现在不再只是一个识别脚本，而是一个多阶段的研究与设计流程，可以扩展为真正的生成式或3D设计环境。
 
 ---
 
