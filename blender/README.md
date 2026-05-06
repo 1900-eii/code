@@ -25,8 +25,7 @@ python -m workflow.run_workflow
 3. Open Blender.
 4. Switch to the Scripting workspace.
 5. Open `blender/import_fragments.py`.
-6. Adjust `JSON_PATH` if you exported a custom file.
-7. Run the script.
+6. Run the script.
 
 ## What the importer creates
 
